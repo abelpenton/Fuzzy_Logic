@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FuzzySet">
+      <UniqueIdentifier>{ca050af3-1a4e-4df0-abbd-493455697fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Membership Function">
+      <UniqueIdentifier>{1c992263-1006-427d-86ac-5b705a3bb5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Operator">
+      <UniqueIdentifier>{82fc380a-83ad-4aa3-bad4-f2a75b71e5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rules">
+      <UniqueIdentifier>{794347a6-221a-45ee-be29-fb4c4fd9006c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FuzzyLogic\FuzzySet.cpp">
+      <Filter>Source Files\FuzzySet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FuzzyLogic\Membership.cpp">
+      <Filter>Source Files\Membership Function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FuzzyLogic\Operator.cpp">
+      <Filter>Source Files\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FuzzyLogic\Rules.cpp">
+      <Filter>Source Files\Rules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\FuzzyLogic\FuzzySet.h">
+      <Filter>Source Files\FuzzySet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FuzzyLogic\Membership.h">
+      <Filter>Source Files\Membership Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FuzzyLogic\Operator.h">
+      <Filter>Source Files\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FuzzyLogic\Rules.h">
+      <Filter>Source Files\Rules</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
